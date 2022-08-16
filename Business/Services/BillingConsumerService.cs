@@ -30,7 +30,7 @@ namespace Business.Services
             ClientFilter filter = new ClientFilter
             {
                 Page = pageIndex,
-                RowsPerPage = 1,
+                RowsPerPage = 1000,
                 Sort = "CPF",
                 SortDir = "Asc"
             };
