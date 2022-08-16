@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Busine
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{A45609B1-91CB-4111-8286-5729CAB0D189}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingConsumerService.Unit.Test", "BillingService.Unit.Test\BillingConsumerService.Unit.Test.csproj", "{21BEB579-FD8F-4030-8508-69A27CCA044A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{A45609B1-91CB-4111-8286-5729CAB0D189}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A45609B1-91CB-4111-8286-5729CAB0D189}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A45609B1-91CB-4111-8286-5729CAB0D189}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BEB579-FD8F-4030-8508-69A27CCA044A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BEB579-FD8F-4030-8508-69A27CCA044A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BEB579-FD8F-4030-8508-69A27CCA044A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BEB579-FD8F-4030-8508-69A27CCA044A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F92240FF-8E57-49FE-AA69-4A6DC381658E} = {2AD7B361-9E69-4209-9FB6-F38AEAB6E2D3}
 		{A45609B1-91CB-4111-8286-5729CAB0D189} = {2AD7B361-9E69-4209-9FB6-F38AEAB6E2D3}
+		{21BEB579-FD8F-4030-8508-69A27CCA044A} = {6EA47771-88A6-49B8-93A1-9CBBABB9357B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {81F97295-986F-4AAC-8A53-F92DEAC682BB}
