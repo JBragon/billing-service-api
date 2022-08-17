@@ -7,15 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{2AD7B361-9
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6EA47771-88A6-49B8-93A1-9CBBABB9357B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "WebApi\WebApi.csproj", "{F22CB847-419F-4966-AAE2-863059B2A9A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\WebApi\WebApi.csproj", "{F22CB847-419F-4966-AAE2-863059B2A9A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{F92240FF-8E57-49FE-AA69-4A6DC381658E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "src\Business\Business.csproj", "{F92240FF-8E57-49FE-AA69-4A6DC381658E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{A45609B1-91CB-4111-8286-5729CAB0D189}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "src\Models\Models.csproj", "{A45609B1-91CB-4111-8286-5729CAB0D189}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillingConsumerService.Unit.Test", "BillingService.Unit.Test\BillingConsumerService.Unit.Test.csproj", "{21BEB579-FD8F-4030-8508-69A27CCA044A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BillingConsumerService.Unit.Test", "src\BillingService.Unit.Test\BillingConsumerService.Unit.Test.csproj", "{21BEB579-FD8F-4030-8508-69A27CCA044A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingConsumerService.Integration.Test", "BillingConsumerService.Integration.Test\BillingConsumerService.Integration.Test.csproj", "{99D042EC-DEDB-4ECB-AE68-8B99B2364050}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillingConsumerService.Integration.Test", "src\BillingConsumerService.Integration.Test\BillingConsumerService.Integration.Test.csproj", "{99D042EC-DEDB-4ECB-AE68-8B99B2364050}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

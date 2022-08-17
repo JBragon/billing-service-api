@@ -2,8 +2,8 @@
 {
     public class ClientResponse
     {
-        public string Nome { get; set; }
-        public string Estado { get; set; }
+        public string Name { get; set; }
+        public string State { get; set; }
         public string CPF { get; set; }
     }
 }

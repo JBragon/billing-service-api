@@ -4,6 +4,6 @@ namespace Business.Interfaces
 {
     public interface IBillingConsumerService
     {
-        Task<CalculateResponse> Calculate(int pageIndex = 0);
+        Task<CalculateResponse> Calculate();
     }
 }
