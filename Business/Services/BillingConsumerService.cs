@@ -50,8 +50,8 @@ namespace Business.Services
 
                     try
                     {
-                        var r = await _billingHttpService.CreateBilling(billingPost);
-                        calculateResponse.successList.Add(r);
+                        var responseBilling = await _billingHttpService.CreateBilling(billingPost);
+                        calculateResponse.successList.Add(responseBilling);
                     }
                     catch (ValidationApiException ex)
                     {

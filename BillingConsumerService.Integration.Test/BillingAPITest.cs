@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.Testing;
+﻿using BillingConsumerService.Integration.Test.Utils;
+using Microsoft.AspNetCore.Mvc.Testing;
 using Models.Infrastructure;
 using Newtonsoft.Json;
 using Xunit;
@@ -23,8 +24,7 @@ namespace BillingConsumerService.Integration.Test
             // Act
             var response = await client.PostAsync($"/api/BillingConsumer", null);
 
-            var data = await response.Content.ReadAsStringAsync();
-            var billingsRegistered = JsonConvert.DeserializeObject<CalculateResponse>(data);
+            var billingsRegistered = await response.ReadContentAs<CalculateResponse>();
 
             // Assert
             response.EnsureSuccessStatusCode(); // Status Code 200-299
