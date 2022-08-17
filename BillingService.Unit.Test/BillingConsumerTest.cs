@@ -21,7 +21,7 @@ namespace BillingConsumerService.Unit.Test
 
             var result = await _billingConsumerService.Object.Calculate();
 
-            Assert.True(result is not null);
+            Assert.NotNull(result);
             Assert.True(result.successList.Any());
             Assert.IsType<CalculateResponse>(result);
         }
@@ -32,7 +32,7 @@ namespace BillingConsumerService.Unit.Test
 
             var result = await _billingConsumerService.Object.Calculate();
 
-            Assert.True(result is not null);
+            Assert.NotNull(result);
             Assert.True(result.errorList.Any());
             Assert.IsType<CalculateResponse>(result);
         }

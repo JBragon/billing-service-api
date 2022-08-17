@@ -1,16 +1,15 @@
 ﻿using Business.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Models.HttpResponse;
 
 namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class BillingConsumerControllerController : ControllerBase
+    public class BillingConsumerController : ControllerBase
     {
         private readonly IBillingConsumerService _billingConsumerService;
 
-        public BillingConsumerControllerController(IBillingConsumerService billingConsumerService)
+        public BillingConsumerController(IBillingConsumerService billingConsumerService)
         {
             _billingConsumerService = billingConsumerService;
         }

@@ -6,7 +6,6 @@ using System.Text.Json.Serialization;
 using WebApi.Configurations;
 using Refit;
 using HealthChecks.UI.Client;
-using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -98,3 +97,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+//Necessário para o uso dos teste de integração
+public partial class Program { }
